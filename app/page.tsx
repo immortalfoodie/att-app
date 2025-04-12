@@ -260,13 +260,13 @@ export default function AutoFareCalculator() {
           )}
         </CardContent>
         <CardFooter className="flex flex-col gap-3 text-xs text-gray-500 justify-center bg-gray-50 py-4">
-          <p>Note: Fares are calculated based on current rates and may vary slightly.<br>
-            This data may not be accurate for all cities.<br>
-            We do not take any responsibility for any inaccuracies or discrepancies.<br>
-            Do not fight with your auto rickshaw driver for any discrepancies.<br>
-            I just made this for fun not for some serious reason.
-          </p>
-
+        <div className="text-center">
+            <p>Note: Fares are calculated based on current rates and may vary slightly.</p>
+            <p>This data may not be accurate for all cities.</p>
+            <p>We do not take any responsibility for any inaccuracies or discrepancies.</p>
+            <p>Do not fight with your auto rickshaw driver for any discrepancies.</p>
+            <p>I just made this for fun not for some serious reason.</p>
+          </div>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSd7FQjk4Wx5sXNpvk7xmBIw7NIL8GWsz5jS2bLT2vv7hq5Vxw/viewform?usp=dialog"
             target="_blank"
