@@ -22,10 +22,10 @@ const cityFareData = {
   },
   delhi: {
     name: "Delhi",
-    baseFare: 25,
-    perKmRate: 9.5,
+    baseFare: 30,
+    perKmRate: 11,
     waitingChargePerMin: 0.75,
-    minDistance: 2,
+    minDistance: 1.5,
   },
   bangalore: {
     name: "Bangalore",
@@ -36,9 +36,9 @@ const cityFareData = {
   },
   chennai: {
     name: "Chennai",
-    baseFare: 25,
-    perKmRate: 13,
-    waitingChargePerMin: 0.5,
+    baseFare: 50,
+    perKmRate: 18,
+    waitingChargePerMin: 1.5,
     minDistance: 1.8,
   },
   kolkata: {
@@ -51,7 +51,7 @@ const cityFareData = {
   hyderabad: {
     name: "Hyderabad",
     baseFare: 20,
-    perKmRate: 12,
+    perKmRate: 11,
     waitingChargePerMin: 0.5,
     minDistance: 1.6,
   },
