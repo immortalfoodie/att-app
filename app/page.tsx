@@ -43,9 +43,9 @@ const cityFareData = {
   },
   kolkata: {
     name: "Kolkata",
-    baseFare: 25,
-    perKmRate: 12,
-    waitingChargePerMin: 0.5,
+    baseFare: 30,
+    perKmRate: 15,
+    waitingChargePerMin: 1,
     minDistance: 2,
   },
   hyderabad: {
