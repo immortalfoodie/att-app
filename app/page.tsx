@@ -15,7 +15,7 @@ const cityFareData = {
   mumbai: {
     name: "Mumbai",
     baseFareDay: 26,
-    baseFareNight: 32,
+    baseFareNight: 33,
     perKmRate: 17.14,
     waitingChargePerMin: 1.42,
     minDistance: 1.5,
